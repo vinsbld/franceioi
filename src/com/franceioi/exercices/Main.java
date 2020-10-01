@@ -4,11 +4,13 @@ class Main {
 
     public static void main(String[] args) {
 
-        for (int loop = 1; loop <= 15; loop ++) {
+        for (int loop = 1; loop <= 21; loop ++) {
+            haut();
             droite();
-            ramasser();
         }
-        droite();
-        deposer();
+        for (int loop = 1; loop <= 21; loop ++) {
+            gauche();
+            bas();
+        }
     }
 }
