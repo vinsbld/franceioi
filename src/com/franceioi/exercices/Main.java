@@ -1,10 +1,12 @@
 package com.franceioi.exercices;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
-	for (int i =1; i<=135; i++){
-        System.out.println("Je dois respecter le Grand Sorcier.");
-    }
+
+        for (int loop = 1; loop <= 13; loop ++) {
+            System.out.println(loop);
+            System.out.println("9 * 8 = 72");
+        }
     }
 }
