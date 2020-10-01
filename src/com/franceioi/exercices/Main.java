@@ -4,16 +4,16 @@ class Main {
 
     public static void main(String[] args) {
 
-        for (int loop = 1; loop <= 30; loop ++) {
-            System.out.print("a_");
-        }
-        System.out.println();
-        for (int loop = 1; loop <= 30; loop ++) {
-            System.out.print("b_");
-        }
-        System.out.println();
-        for (int loop = 1; loop <= 30; loop ++) {
-            System.out.print("c_");
+        for (int grandeLooop = 1; grandeLooop<=20; grandeLooop++) {
+
+            for (int loop = 1; loop <= 20; loop++) {
+                System.out.print("OX");
+            }
+            System.out.println();
+            for (int loop = 1; loop <= 20; loop++) {
+                System.out.print("XO");
+            }
+            System.out.println();
         }
 
     }
