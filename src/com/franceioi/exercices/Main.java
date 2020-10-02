@@ -4,7 +4,10 @@ package com.franceioi.exercices;
 class Main {
 
     public static void main(String[] args) {
-        System.out.println(((25+30+27+22)-8)*3);
+        int total = (2+34+6);
+        System.out.print(total+" ");
+        System.out.print(total*2+" ");
+        System.out.print(total*3+" ");
     }
 }
 
