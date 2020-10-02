@@ -2,19 +2,14 @@ package com.franceioi.exercices;
 
 
 class Main {
-
     public static void main(String[] args) {
-      int anneau = 1;
-      for (int i =1;i<=10;i++){
-          for (int j =1; j<=anneau;j++){
-              droite();
-          }ramasser();
-          for (int k =1; k<=anneau;k++){
-              gauche();
-          }deposer();
-          anneau = anneau+1;
-      }
+        int nbCubes = 0;
+        int largeurArete = 1;
+
+        for (int i = 1; i<=9; i++){
+            nbCubes = nbCubes + largeurArete * largeurArete * largeurArete;
+            largeurArete = largeurArete + 2;
+
+        }System.out.println(nbCubes);
     }
 }
-
-
