@@ -4,12 +4,14 @@ package com.franceioi.exercices;
 class Main {
 
     public static void main(String[] args) {
-        int nbCrapauds = 1337;
-        for (int i = 1; i<=12; i++){
-            nbCrapauds = nbCrapauds*2;
+        int nbBonbons = 1;
+        System.out.println(nbBonbons);
+        nbBonbons = 3;
+        System.out.println(nbBonbons);
+        for (int i = nbBonbons; i<=50; i++){
+            nbBonbons = nbBonbons + i;
+            System.out.println(nbBonbons);
         }
-        System.out.println(nbCrapauds);
-
     }
 }
 
