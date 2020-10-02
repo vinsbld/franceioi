@@ -4,11 +4,12 @@ package com.franceioi.exercices;
 class Main {
 
     public static void main(String[] args) {
-
-        for (int i = 100;i>=0;i--){
-            System.out.println(i);
+        int nbCrapauds = 1337;
+        for (int i = 1; i<=12; i++){
+            nbCrapauds = nbCrapauds*2;
         }
-        System.out.println("Décollage ! ");
+        System.out.println(nbCrapauds);
+
     }
 }
 
