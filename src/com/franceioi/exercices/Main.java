@@ -12,7 +12,7 @@ class Main {
           for (int k =1; k<=anneau;k++){
               gauche();
           }deposer();
-          anneau = anneau+i;
+          anneau = anneau+1;
       }
     }
 }
