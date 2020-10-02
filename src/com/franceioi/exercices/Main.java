@@ -4,7 +4,7 @@ package com.franceioi.exercices;
 class Main {
 
     public static void main(String[] args) {
-        System.out.println(42);
+        System.out.println(12581 - 11937);
     }
 }
 
